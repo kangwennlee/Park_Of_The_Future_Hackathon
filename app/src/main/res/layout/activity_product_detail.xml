@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="hackathon.sg.potf.ProductDetail">
+    <TableRow>
+        <TextView
+            android:text="Product Name:" />
+        <TextView
+            android:id="@+id/txtViewProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Product Category: "/>
+        <TextView
+            android:id="@+id/txtViewProductCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imgViewProduct"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <TableRow>
+        <TextView
+            android:text="Product Price: "/>
+        <TextView
+            android:id="@+id/txtViewProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+        <Button
+            android:id="@+id/btnProceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to cart" />
+    </LinearLayout>
+</TableLayout>

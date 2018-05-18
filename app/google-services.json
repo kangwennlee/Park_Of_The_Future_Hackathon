@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "84132722348",
+    "firebase_url": "https://parkoffuture.firebaseio.com",
+    "project_id": "parkoffuture",
+    "storage_bucket": "parkoffuture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84132722348:android:1739b1c569ad5903",
+        "android_client_info": {
+          "package_name": "hackathon.sg.potf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84132722348-6sa6cll51csevnde392sv6q4km76am4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hackathon.sg.potf",
+            "certificate_hash": "5175d45dbeadc8dcc296c4833a02cf444a6a566b"
+          }
+        },
+        {
+          "client_id": "84132722348-fal0960fisupf9n2e6p9qa78i87utsdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzRM00PgLUAx-TeIBzDZU9d02bIke2zuI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84132722348-fal0960fisupf9n2e6p9qa78i87utsdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
